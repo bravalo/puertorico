@@ -1,0 +1,61 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Proza Libre', sans-serif;
+	color:#2b2b2b;
+	}
+	#puertorico {
+		height: 600px;
+	}
+	/***** GRID *****/
+	.full-width {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.half-width {
+		width: 600px;
+		margin: 0 auto;
+		float: left;
+	}
+	/***** PUERTO RICO CSS CODE *****/
+	#puertorico img#leaves-img {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+		top: 0;
+		left: 0;
+}
+	/* Top left text*/
+	.top-left {
+		position: absolute;
+		top: 0;
+		font-size: 58px;
+		color: brown;
+		font-weight: bolder;
+	}
+	.half-width-one img#coqui-img {
+		margin-left: 25px;
+		float: left;
+		width: 500px;
+		position: absolute;
+		top: 58px;
+	}
+	/* Top right text*/
+	.top-right {
+		position: absolute;
+		top: 0;
+		font-size: 24px;
+		margin-left: 550px;
+		margin-top: 150px;
+	}
+	#puertorico ul {
+		list-style: none;
+		float: right;
+		position: absolute;
+		top: 0;
+		font-size: 18px;
+		margin-left: 550px;
+		margin-top: 188px;
+	}
+
+	
